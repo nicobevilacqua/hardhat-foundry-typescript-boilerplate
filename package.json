@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "hardhat-foundry-typescript-boilerplate",
   "version": "0.0.0",
   "main": "index.js",
   "repository": "",
@@ -10,6 +10,11 @@
     "hardhat-watcher": "^2.1.1",
     "ts-node": "^10.2.1",
     "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "test": "hardhat test",
+    "forge:build": "forge build",
+    "forge:test": "forge test"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.0",

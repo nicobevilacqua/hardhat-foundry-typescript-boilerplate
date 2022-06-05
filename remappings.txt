@@ -1,1 +1,2 @@
 hardhat/=node_modules/hardhat/
+@openzeppelin/=node_modules/@openzeppelin/
